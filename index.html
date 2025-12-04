@@ -898,6 +898,15 @@
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
     <script src="https://assets.codepen.io/16327/DrawSVGPlugin3.min.js"></script>
     <script src="./script.js"></script>
+    <script>
+        const audio = new Audio("HB.mpeg");
+        audio.loop = true;
+
+        // Click event for whole page
+        document.body.addEventListener("click", () => {
+            audio.play();
+        }, { once: true });
+    </script>
 
 </body>
 
