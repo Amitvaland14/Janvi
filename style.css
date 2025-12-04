@@ -101,6 +101,7 @@ span {
             -20px -60px 60px #cd4606, 0 -80px 70px #973716,
             10px -90px 80px #451b0e;
     }
+
     100% {
         text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
             -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
@@ -116,6 +117,7 @@ span {
             -20px -60px 60px #cd4606, 0 -80px 70px #973716,
             10px -90px 80px #451b0e;
     }
+
     100% {
         text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
             -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
@@ -131,6 +133,7 @@ span {
             -20px -60px 60px #cd4606, 0 -80px 70px #973716,
             10px -90px 80px #451b0e;
     }
+
     100% {
         text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
             -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
@@ -146,10 +149,34 @@ span {
             -20px -60px 60px #cd4606, 0 -80px 70px #973716,
             10px -90px 80px #451b0e;
     }
+
     100% {
         text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #fefcc9,
             -20px -20px 40px #feec85, 22px -42px 60px #ffae34,
             -22px -58px 50px #ec760c, 0 -82px 80px #cd4606,
             10px -90px 80px #973716;
+    }
+}
+
+.bb_myname {
+    text-align: right;
+    padding: 0px 100px 10px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .bb_myname {
+        padding: 0px 8% 20px;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .bb_myname {
+        font-size: 14px;
+        padding: 0px 10px 15px;
     }
 }
